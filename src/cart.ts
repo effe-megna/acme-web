@@ -5,5 +5,5 @@ export function cartTotal(items: CartItem[]): number {
 }
 
 export function cartCount(items: CartItem[]): number {
-    return items.reduce((count, item) => count + item.quantity, 0);
+  return items.reduce((count, item) => count + item.quantity, 0)
 }
